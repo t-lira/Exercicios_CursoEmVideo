@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            width: 450px;
+            border-collapse: collapse;
+        }
+        tr, th, td{
+        border: 1px solid black;
+        padding: 15px;
+       
+        }
+        caption{
+            font-size: 1,5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #BAB6AF;
+            border-radius: 15px 15px 0 0;
+
+        }
+        thead, tfoot{
+            background-color: #A6A594; 
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: #E0DCD3;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nun{
+            text-align: right;
+        }
+        .img{
+            text-align: left;
+        }
+    
+        .tabela{
+            display: flex;
+            position: absolute;
+            left: 30%;
+        }
+    
+
+    </style>
+</head>
+   
+<body>
+<main>
+    <div class="tabela">
+
+        <table>
+            <caption>Lista das dez unidades federativas do Brasil mais populosas</caption>
+            <thead>
+                <tr>
+                    <th scope="col1" style="width: 30px;">Posição</th>
+                    <th scope="col1">Estado</th>
+                    <th scope="col1">População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th class="img"><img src="img/Bandeira_do_estado_de_São_Paulo.svg.webp" alt=""> São Paulo</th>
+                    <td class="nun">46 649 132</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th class="img"><img src="img/Bandeira_de_Minas_Gerais.svg.webp" alt=""> Minas Gerais</th>
+                    <td class="nun">19 597 330</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th class="img"><img src="img/20px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.webp" alt=""> Rio de Janeiro</th>
+                    <td class="nun">15 989 929</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th class="img"><img src="img/Bandeira_da_Bahia.svg.webp" alt=""> Bahia</th>
+                    <td class="nun">14 016 906</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th class="img"><img src="img/Bandeira_do_Paraná.svg.webp" alt=""> Paraná</th>
+                    <td class="nun">10 444 526</td>
+                </td>
+                <tr>
+                    <th>6</th>
+                    <th class="img"><img src="img/Bandeira_do_Rio_Grande_do_Sul.svg.webp" alt=""> Rio Grande do Sul</th>
+                    <td class="nun">10 693 929</td>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <th class="img"><img src="img/Bandeira_de_Pernambuco.svg.webp" alt=""> Pernambuco</th>
+                    <td class="nun">8 796 448</td>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <th class="img"><img src="img/Bandeira_do_Ceará.svg.webp" alt=""> Ceará</th>
+                    <td class="nun">8 452 381</td>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <th class="img"><img src="img/Bandeira_do_Pará.svg.webp" alt=""> Pará</th>
+                    <td class="nun">7 581 051</td>
+                </tr>
+                <tr>
+                    <th>10</th>
+                    <th class="img"><img src="img/Bandeira_de_Santa_Catarina.svg.webp" alt=""> Santa Catarina</th>
+                    <td class="nun">6 248 436</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">TOTAL DE HABITANTES</th>
+                    <td class="nun" colspan="2"><strong> 148 470 068</strong></td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+</main>
+</body>
+</html>

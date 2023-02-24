@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio-iframe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        iframe{
+            width: 600px;
+            height: 200px;
+            border: 2px solid black;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste com iframe</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem similique quos debitis ducimus sunt, molestiae cumque dolores impedit unde! Quidem animi non impedit labore culpa, nobis maiores reprehenderit? Ea, eligendi.
+    </p>
+
+    <ul>
+        <li><a href="pag1.html" target="paginas">Página azul</a></li>
+        <li><a href="pag2.html" target="paginas">Pagina verde</a></li>
+        <li><a href="pag3.html" target="paginas">Página amarela</a></li>
+    </ul>
+
+    <h2>Iframe</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vero consequatur expedita impedit necessitatibus velit rerum voluptate dolor possimus iusto autem nostrum, explicabo recusandae ducimus accusamus. Quo atque ex unde
+    </p>
+
+    <iframe src="pag1.html" sandbox="sandbox" referrerpolicy="no-referrer" name="paginas" frameborder="1" srcdoc="Escolha uma das opções acima!">
+        <p>Seu navegador não é compativel</p>
+
+    </iframe>
+</body>
+</html>

@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+html body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #E4F2E7;
+}
+
+header{
+    background-color: #93BFB7;
+    
+}
+
+header > h1{
+    text-align: center;
+    color: #387373;
+}
+
+nav ul{
+    list-style-type: none;  
+    background-color: #93BFB7; 
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #93BFB7;
+    color: #E4F2E7;
+}
+
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+
+}
